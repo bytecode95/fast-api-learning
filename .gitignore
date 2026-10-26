@@ -1,0 +1,121 @@
+# =========================================================
+# Python
+# =========================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# =========================================================
+# Environment variables and secrets
+# =========================================================
+.env
+.env.*
+!.env.example
+
+*.env
+!*.env.example
+
+# Project-specific environment configuration
+# config/env/local.env
+# config/env/development.env
+# config/env/staging.env
+# config/env/production.env
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================================================
+# Testing and coverage
+# =========================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+test-results/
+junit.xml
+
+# =========================================================
+# Type checking and linting
+# =========================================================
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# =========================================================
+# Jupyter
+# =========================================================
+.ipynb_checkpoints/
+
+# =========================================================
+# Logs and temporary files
+# =========================================================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# =========================================================
+# IDEs and editors
+# =========================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================================================
+# Operating system
+# =========================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================================================
+# Local databases and backups
+# =========================================================
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
+*.bak
+
+# PostgreSQL exports
+*.sql.gz
+*.dump.gz
+
+# =========================================================
+# Alembic
+# Keep migration source files tracked!
+# =========================================================
+# Do not ignore migrations/versions/
+# Do not ignore alembic/versions/
+
+# =========================================================
+# Project-specific generated files
+# =========================================================
+.cache/
+.pytest_cache/

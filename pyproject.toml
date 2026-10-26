@@ -1,0 +1,32 @@
+[project]
+name = "fastapi-learning"
+version = "0.1.0"
+description = "This is the project that Im going to learn fast api "
+readme = "README.md"
+authors = [
+    { name = "cheth@714", email = "chethana.virajini@aventagelabs.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "alembic>=1.20.1",
+    "asyncpg>=0.32.0",
+    "email-validator>=2.3.0",
+    "fastapi[standard]>=0.162.0",
+    "pydantic-settings>=2.16.1",
+    "sqlalchemy[asyncio]>=2.1.6",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+    "pytest-asyncio>=1.4.1",
+    "ruff>=0.17.2",
+]
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+
+[tool.ruff.format]
+quote-style = "double"
